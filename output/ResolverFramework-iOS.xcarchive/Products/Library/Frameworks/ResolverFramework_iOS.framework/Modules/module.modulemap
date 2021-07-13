@@ -1,0 +1,11 @@
+framework module ResolverFramework_iOS {
+  umbrella header "ResolverFramework_iOS.h"
+
+  export *
+  module * { export * }
+}
+
+module ResolverFramework_iOS.Swift {
+    header "ResolverFramework_iOS-Swift.h"
+    requires objc
+}
